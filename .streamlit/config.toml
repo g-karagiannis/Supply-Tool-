@@ -1,0 +1,22 @@
+# Dark theme. Base colours and fonts live here; finer details (tracking,
+# hairline borders, button styles) are injected as CSS by ui/common.py.
+
+[theme]
+base = "dark"
+primaryColor = "#e4f222"
+backgroundColor = "#08090a"
+secondaryBackgroundColor = "#0f1011"
+textColor = "#d0d6e0"
+linkColor = "#d0d6e0"
+borderColor = "#23252a"
+dataframeBorderColor = "#23252a"
+showWidgetBorder = true
+baseRadius = "6px"
+buttonRadius = "6px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@300..700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap"
+headingFontWeights = [510, 510, 510, 510, 510, 510]
+baseFontSize = 15
+
+[client]
+toolbarMode = "minimal"
