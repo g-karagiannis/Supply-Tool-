@@ -20,3 +20,7 @@ baseFontSize = 15
 
 [client]
 toolbarMode = "minimal"
+
+[server]
+# Only this computer can open the application; other devices on the network cannot.
+address = "localhost"
