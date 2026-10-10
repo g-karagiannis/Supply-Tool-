@@ -3,7 +3,7 @@ rem Starts the supply chain planning application.
 rem Double-click this file. The first run creates the .venv folder and installs
 rem the exact package versions from requirements-lock.txt.
 
-title Programmatismos supply chain
+title Supply Tool
 cd /d "%~dp0"
 
 if not exist ".venv\Scripts\python.exe" (

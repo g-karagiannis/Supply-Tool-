@@ -298,7 +298,7 @@ def test_language_switch_keeps_the_tab_and_is_saved(app) -> None:
     assert not at.exception
     assert at.session_state["nav"] == "Products"
     assert any(b.label == "(+) Add Product" for b in at.button)
-    assert "Supply chain planning" in [t.value for t in at.title]
+    assert "Supply Tool" in [t.value for t in at.title]
     conn = db.connect(db.DEFAULT_DB_PATH)
     from data.repositories import get_language
 

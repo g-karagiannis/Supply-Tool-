@@ -6,7 +6,7 @@ Numbers and dates passed to the functions are already formatted.
 
 from __future__ import annotations
 
-PAGE_TITLE = "Προγραμματισμός supply chain"
+PAGE_TITLE = "Supply Tool"
 
 # ---------------------------------------------------------------- navigation
 NAV_WAREHOUSE = "Αποθήκη"
